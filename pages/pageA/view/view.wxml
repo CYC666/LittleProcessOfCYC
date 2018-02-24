@@ -1,0 +1,15 @@
+<view>
+  <view class='titleView'>横向排列</view>
+  <view class='flexBox' style='flex-direction:row;height:100px'>
+    <view class='item spaceItemA'>方块A</view>
+    <view class='item spaceItemB'>方块B</view>
+    <view class='item spaceItemC'>方块C</view>
+  </view>
+
+  <view class='titleView'>纵向排列</view>
+  <view class='flexBox' style='flex-direction:column;height:300px'>
+    <view class='item spaceItemA'>方块A</view>
+    <view class='item spaceItemB'>方块B</view>
+    <view class='item spaceItemC'>方块C</view>
+  </view>
+</view>

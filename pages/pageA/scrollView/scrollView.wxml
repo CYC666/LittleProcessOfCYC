@@ -1,0 +1,16 @@
+<view>
+  <view class='titleView'>横向滑动</view>
+  <scroll-view scroll-x='true' style='white-space:nowrap;'>
+    <view class='space itemX spaceItemA'>方块A</view>
+    <view class='space itemX spaceItemB'>方块B</view>
+    <view class='space itemX spaceItemC'>方块C</view>
+  </scroll-view>
+
+  <view class='titleView'>纵向滑动</view>
+  <scroll-view class='scrollStyleY' scroll-y='true' style='white-space:nowrap;'>
+    <view class='scrollItem spaceItemA'>方块A</view>
+    <view class='scrollItem spaceItemB'>方块B</view>
+    <view class='scrollItem spaceItemC'>方块C</view>
+  </scroll-view>
+
+</view>

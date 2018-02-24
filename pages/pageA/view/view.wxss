@@ -1,0 +1,33 @@
+/*  标题  */
+.titleView{
+  background-color: pink;
+  color: white;
+  padding: 15px;
+  height: 20px;
+}
+
+/*  弹性盒容器  */
+.flexBox{
+  display: flex;
+  background-color: lightcyan;
+}
+
+.item{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  三个小方块  */
+.spaceItemA{
+  background-color: #333;
+}
+.spaceItemB{
+  background-color: #666;
+}
+.spaceItemC{
+  background-color: #999;
+}

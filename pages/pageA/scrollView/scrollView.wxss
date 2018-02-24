@@ -1,0 +1,41 @@
+/*  标题  */
+.titleView{
+  background-color: pink;
+  color: white;
+  padding: 15px;
+  height: 20px;
+}
+
+.scrollStyleY{
+  height: 200px;
+  /*内联块  */
+  display: inline-block;
+  text-align: center;
+}
+
+.itemX{
+  height: 100px; 
+  width: 200px;
+}
+
+.scrollItem{
+  height: 200px;
+  color: white;
+}
+
+.space{
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+/*  三个小方块  */
+.spaceItemA{
+  background-color: #333;
+}
+.spaceItemB{
+  background-color: #666;
+}
+.spaceItemC{
+  background-color: #999;
+}
