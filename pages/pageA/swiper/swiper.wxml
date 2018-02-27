@@ -1,0 +1,13 @@
+<view>
+  <swiper indicator-dots='{{true}}' autoplay='{{false}}' current='{{1}}' interval='1000' duration='500'>
+    <swiper-item>
+      <view class='swiper_item_view item_blue'>1</view>
+    </swiper-item>
+    <swiper-item>
+      <view class='swiper_item_view item_red'>2</view>
+    </swiper-item>
+    <swiper-item>
+      <view class='swiper_item_view item_green'>3</view>
+    </swiper-item>
+  </swiper>
+</view>

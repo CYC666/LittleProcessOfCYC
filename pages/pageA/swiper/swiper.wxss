@@ -1,0 +1,19 @@
+/* 子视图样式  */
+.swiper_item_view{
+  height: 300px;
+  display: flex;
+  justify-content: center; 
+  color: white;
+  font-size: 23px;
+}
+
+/* 颜色块  */
+.item_blue{
+  background-color: lightblue;
+}
+.item_red{
+  background-color: red;
+}
+.item_green{
+  background-color: green;
+}

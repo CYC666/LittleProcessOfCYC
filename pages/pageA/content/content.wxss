@@ -1,0 +1,20 @@
+.title{
+  height: 30px;
+  color: white;
+  background-color: #EED8AE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containt{
+  height: 60px;
+  background-color: #EEE5DE;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.progress_view{
+  height: 60px;
+  background-color: #EEE5DE;
+}

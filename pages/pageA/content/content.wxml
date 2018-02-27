@@ -1,0 +1,24 @@
+<view>
+  <view class='title'>icon</view>
+  <view class='containt'>
+    <icon type='success'            size='30' color='#EE6AA7'></icon>
+    <icon type='success_no_circle'  size='30' color='#EE6AA7'></icon>
+    <icon type='info'               size='30' color='#EE6AA7'></icon>
+    <icon type='warn'               size='30' color='#EE6AA7'></icon>
+    <icon type='waiting'            size='30' color='#EE6AA7'></icon>
+    <icon type='cancel'             size='30' color='#EE6AA7'></icon>
+    <icon type='download'           size='30' color='#EE6AA7'></icon>
+    <icon type='search'             size='30' color='#EE6AA7'></icon>
+    <icon type='clear'              size='30' color='#EE6AA7'></icon>
+  </view>
+
+  <view class='title' style='margin-top:10px;'>text</view>
+  <view class='containt'>
+    <text>这是一个文本</text>
+  </view>
+
+  <view class='title' style='margin-top:10px;'>progress</view>
+  <view class='progress_view'>
+    <progress percent='88' show-info='{{true}}' stroke-width='4' color='#00CD00' active='{{true}}'></progress>
+  </view>
+</view>
