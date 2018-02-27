@@ -1,3 +1,6 @@
+// 导入公用模块
+var common = require("../../common/common.js")
+
 // 获取APP实例
 var instance = getApp();
 
@@ -31,6 +34,7 @@ Page({
    */
   onShow: function () {
     console.log("打印oneString>>>"+instance.oneString)
+    common.show("就是我")
   },
 
   /**
@@ -44,7 +48,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    
+
   },
 
   /**
