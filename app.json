@@ -13,5 +13,24 @@
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
+  },
+
+  "tabBar": {
+    "color": "#BFBFBF",
+    "selectedColor": "#1296DB",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/pageA/swiper/swiper",
+      "text": "轮播",
+      "selectedIconPath": "pages/images/tabbar/tabbar_banner.png",
+      "iconPath": "pages/images/tabbar/tabbar_banner_off.png"
+    },
+    {
+      "pagePath": "pages/pageA/content/content",
+      "text": "基础视图",
+      "selectedIconPath": "pages/images/tabbar/tabbar_icon.png",
+      "iconPath": "pages/images/tabbar/tabbar_icon_off.png"
+    }]
   }
 }

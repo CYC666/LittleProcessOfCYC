@@ -9,11 +9,11 @@
 
 /* 颜色块  */
 .item_blue{
-  background-color: lightblue;
+  background-color: cyan;
 }
 .item_red{
-  background-color: red;
+  background-color: pink;
 }
 .item_green{
-  background-color: green;
+  background-color: greenyellow;
 }
