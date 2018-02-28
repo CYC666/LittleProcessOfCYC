@@ -10,4 +10,12 @@
       <view class='swiper_item_view item_green'>3</view>
     </swiper-item>
   </swiper>
+
+  <!-- 数据绑定  -->
+  <view class='data_view'>
+    <view>{{showText}}</view>
+    <view id='item-{{id}}'>组件属性绑定</view>
+    <view wx:if='{{condition}}'>控件条件绑定</view>
+    <view wx:if='{{true}}'>真假值输入</view>
+  </view>
 </view>

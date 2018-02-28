@@ -17,3 +17,14 @@
 .item_green{
   background-color: greenyellow;
 }
+
+/* 数据绑定  */
+.data_view{
+  height: 150px;
+  background-color: lightblue;
+}
+
+#item-test{
+  color: coral;
+  font-size: 30px;
+}
