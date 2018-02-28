@@ -17,5 +17,19 @@
     <view id='item-{{id}}'>组件属性绑定</view>
     <view wx:if='{{condition}}'>控件条件绑定</view>
     <view wx:if='{{true}}'>真假值输入</view>
+    <button class='simple-button' bindtap='buttonAction'>点击跳转</button>
   </view>
+
+  <!-- 列表  -->
+  <view class='list-view'>
+    <block wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8]}}" wx:for-index="row">
+      <view class='list-item'>{{row}}</view>
+    </block>
+
+    <!--天伦卷闸门  -->
+    <button class='simple-button' bindtap='buttonjzmAction'>天伦卷闸门</button>
+  </view>
+
+
+  
 </view>

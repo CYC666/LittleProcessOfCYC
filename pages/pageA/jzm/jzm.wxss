@@ -1,0 +1,82 @@
+/* 顶部模块  */
+.top-view{
+  height: 100px;
+  background-color: white;
+}
+
+.top-view-title{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.top-view-subText{
+  color: #bebebe;
+  margin-top: 0px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.top-view-icon{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.top-view-line{
+  position: absolute; 
+  top: 85px;
+  height: 15px;
+}
+
+/* 中部信息模块  */
+.center-view{
+  height: 200px;
+  background-color: white;
+}
+
+.center-view-item{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.center-view-item-leftIcon{
+  padding-left: 20px;
+  width: 15px;
+  height: 18px;
+}
+
+.center-view-item-title{
+  padding-left: 10px;
+  color: #353535;
+  background-color: white;
+  width: 75%;
+  font-size: 15px;
+}
+
+.center-view-item-rightyIcon{
+  padding-left: 0px;
+  width: 15px;
+  height: 18px;
+}
+
+/* 底部的轮播  */
+.bottom-banner{
+  padding-left: 5%;
+  width: 90%;
+  height: 190px;
+}
+.bottom-banner-item{
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  height: 190px;
+  width: 100%;
+}
+

@@ -1,0 +1,35 @@
+<view>
+  <!-- 顶部  -->
+  <view class='top-view'>
+    <view class='top-view-title'>天伦卷闸门</view>
+    <view class='top-view-subText'>家居·装修</view>
+    <image class='top-view-icon' src='../../images/头像.png'></image>
+    <image class='top-view-line' src='../../images/虚线.png'></image>
+  </view>
+
+  <!-- 中部  -->
+  <view class='center-view'>
+    <block wx:for="{{infoList}}" wx:for-item="model">
+      <view class='center-view-item'>
+        <image class='center-view-item-leftIcon' src='{{model.leftIcon}}'></image>
+        <view class='center-view-item-title'>{{model.titleName}}</view>
+        <image class='center-view-item-rightyIcon' src='{{model.rightIcon}}'></image>
+      </view>
+    </block>
+  </view>
+
+  <!-- 底部  -->
+  <view>
+    <swiper class='bottom-banner' indicator-dots='{{true}}' autoplay='{{true}}'>
+      <swiper-item>
+        <image class='bottom-banner-item' src='../../images/门店图1.png'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class='bottom-banner-item' src='../../images/门店图2.png'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class='bottom-banner-item' src='../../images/门店图3.png'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

@@ -1,20 +1,30 @@
-// 导入公用模块
-var common = require("../../common/common.js")
-
-// 获取APP实例
-var instance = getApp();
-
-
-
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    showText:"简单数据绑定",
-    id:"test",
-    condition:true
+    infoList:[
+      {
+        leftIcon:"../../images/定位.png",
+        titleName:"广西省钦州市灵山县灵城镇新圩路口",
+        rightIcon:"../../images/右三角.png"},
+      {
+        leftIcon: "../../images/时间.png",
+        titleName: "10:30-22:30",
+        rightIcon: ""
+      },
+      {
+        leftIcon: "../../images/电话.png",
+        titleName: "13084972428",
+        rightIcon: "../../images/右三角.png"
+      },
+      {
+        leftIcon: "../../images/图片.png",
+        titleName: "门店照片",
+        rightIcon: ""
+      }
+    ]
   },
 
   /**
@@ -35,8 +45,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log("打印oneString>>>"+instance.oneString)
-    common.show("就是我")
+    
   },
 
   /**
@@ -50,7 +59,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+     
   },
 
   /**
@@ -72,25 +81,5 @@ Page({
    */
   onShareAppMessage: function () {
     
-  },
-
-  // 按钮响应
-  buttonAction: function(event) {
-    wx.navigateTo({
-      url: '../scrollView/scrollView',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
-  },
-
-  // 天伦卷闸门
-  buttonjzmAction: function(event) {
-    wx.navigateTo({
-      url: '../jzm/jzm',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
   }
 })

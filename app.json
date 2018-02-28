@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/pageA/jzm/jzm",
     "pages/pageA/swiper/swiper",
     "pages/pageA/content/content",
     "pages/pageA/scrollView/scrollView",
     "pages/pageA/view/view"
+    
   ],
 
   "window": {
